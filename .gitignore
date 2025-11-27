@@ -1,0 +1,8 @@
+node_modules/
+lib/
+.env
+*.log
+uploads/
+data/
+*.db
+
