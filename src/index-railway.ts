@@ -8,7 +8,7 @@ import userRoutes from './routes/users';
 import uploadRoutes from './routes/upload';
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000;
 
 // Middleware
 app.use(cors({ origin: true }));
